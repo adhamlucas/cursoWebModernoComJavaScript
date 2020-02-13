@@ -1,8 +1,8 @@
 const nome = 'Rebeca'
 const concatenacao = 'olá' + nome + '!'
-const template = `
+const template = ` 
     Olá
-    ${nome}!`
+    ${nome}!` //para template string tem que usar a crase (acento grave) para funcionar
 
 console.log(concatenacao, template)
 
